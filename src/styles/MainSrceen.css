@@ -1,0 +1,64 @@
+.main-box{
+    background-image: url("/public/images/mainScreenBackground.avif");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    width: 40vw;
+    border-radius: 1vw;
+    height: 30vw;
+    background-color: rgba(240, 70, 70, 0.5);    
+}
+.game-title{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+    color: aliceblue;
+    font-family: cursive;
+}
+.text-1{
+    margin-top: 2vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw;
+    color: aliceblue;
+    font-family: cursive;
+}
+.next-page{     
+    margin-top: 2vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw;
+    color: aliceblue;
+    font-family: cursive;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+
+}
+.text-2{
+    margin-top: 9vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+    color: aliceblue;
+    font-family: cursive;
+}

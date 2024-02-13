@@ -1,0 +1,125 @@
+.fullScreenContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hearts{
+    display: flex;
+}
+
+.heartContainer1 {
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+}
+.heartContainer2 {
+    position: absolute;
+    top: 5vw;
+    right: 10vw;
+}
+.heartContainer3 {
+    position: absolute;
+    top: 3vw;
+    left: 35vw;
+}
+
+  
+  .heart3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(310deg);
+    position: relative;
+  }
+  .heart3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(29+0deg);
+    position: relative;
+  }
+  
+  .heart3:before,
+  .heart3:after {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+  }
+  
+  .heart3:before {
+    top: -50px;
+    left: 0;
+  }
+  
+  .heart3:after {
+    top: 0;
+    left: 50px;
+  }
+  
+  .heartBox{
+    border-radius: 2vw;
+    margin-top: 5vw;
+    width: 30vw;
+    height: 12vw;
+    background-color: rgb(255, 94, 140);
+  }
+  
+  .heart {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(310deg);
+    position: relative;
+  }
+  
+  .heart:before,
+  .heart:after {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+  }
+  
+  .heart:before {
+    top: -50px;
+    left: 0;
+  }
+  
+  .heart:after {
+    top: 0;
+    left: 50px;
+  }
+  
+  .heartBox{
+    border-radius: 2vw;
+    margin-top: 5vw;
+    width: 35vw;
+    height: 15vw;
+    background-color: rgb(255, 94, 140);
+  }
+    .gameTitle{
+      margin-top: 2vw;
+      padding-left: 5vw;
+      display: flex;
+      font-size: 2vw;
+      text-align: center;
+      color: aliceblue;
+      font-family:cursive;
+      }
+.titleCat{
+    margin-top:2vw;
+    height: 5vw;
+    width: 5vw;
+}

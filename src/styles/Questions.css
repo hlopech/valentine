@@ -1,0 +1,51 @@
+.box{
+    margin-top: 1vw;
+    /* width: 20vw; */
+    /* height: 3vw; */
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont1{
+    display: flex;
+}
+.input{
+    font-family: cursive;
+    color: aliceblue;
+    padding-left: 1vw;
+    outline: none; 
+    border:3px solid white ;
+    border-radius: 5vw;
+    font-size: 2vw;
+    background-color: rgb(247, 184, 245);
+    width: 20vw;
+    height: 3vw;
+}
+.heartBtn{
+    cursor: pointer;
+    width: 5vw;
+    transition: transform 0.5s ease;
+}
+.heartBtn:hover{
+    transform: scale(1.2);
+}
+.question-result{
+    margin-top: 1vw;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+.question-cont{
+    /* width: 20vw; */
+    height: 3vw;
+
+}
+.question{
+    font-size: 1.5vw;
+    font-family: cursive;
+    color: aliceblue;
+}

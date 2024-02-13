@@ -1,0 +1,102 @@
+.mainBox{
+    background-image: url("/public/images/mainScreenBackground.avif");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .gameTitle {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        display: flex;
+        font-size: 2vw;
+        text-align: center;
+        color: red;
+        font-family:cursive;
+  }
+  
+  .text1{
+    margin-bottom: 2vw;
+    width: 40vw;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw;
+    color: red;
+    font-family: cursive;
+}
+  .board {
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 20px;
+  }
+  .newGameBtn{
+
+  }
+  
+  .cell {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .winnerText{
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    color: red;
+  }
+  .image1{
+    width: 6vw;
+  }
+  .gameResult {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 20px;
+
+    
+}
+.newGameBtn{
+    background-color: pink;
+    font-size: 2vw;
+    font-family: cursive;
+    color: white;
+    margin-top: 1vw;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 1vw;
+    border: 2px solid red;
+    outline: none;
+
+}  
+  
+.nextGame{
+    margin-top: 3vw;
+    background-color: pink;
+    padding: 0.7vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+}
+.count{
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    color: red;
+}

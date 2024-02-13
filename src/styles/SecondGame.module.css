@@ -1,0 +1,77 @@
+.mainBox{
+    background-image: url("/public/images/mainScreenBackground.avif");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .gameTitle {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        display: flex;
+        font-size: 2vw;
+        text-align: center;
+        color: red;
+        font-family:cursive;
+  }
+  
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 100px); /* 6 карточек в строке */
+    gap: 10px; /* Расстояние между карточками */
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0; /* Цвет фона карточки */
+    border-radius: 5px; /* Скругление углов карточки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Курсор при наведении на карточку */
+    transition: transform 0.3s ease; /* Анимация переворота карточки */
+  }
+  
+  .flipped {
+    transform: rotateY(180deg); /* Поворот карточки при перевороте */
+  }
+  
+  .matched {
+    background-color: lightgreen; /* Цвет фона совпавших карточек */
+  }
+  
+  .symbol {
+    font-size: 36px;
+    visibility: hidden; /* Скрытие символов */
+  }
+  
+  .flipped .symbol {
+    visibility: visible; /* Показ символов при перевороте */
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+    position: absolute; /* Абсолютное позиционирование картинки */
+    visibility: hidden; /* Скрытие картинок */
+}
+
+.flipped .image {
+  visibility: visible; /* Показ картинок при перевороте */
+}
+
+.nextGame{
+    margin-top: 3vw;
+    background-color: pink;
+    padding: 0.7vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+}
